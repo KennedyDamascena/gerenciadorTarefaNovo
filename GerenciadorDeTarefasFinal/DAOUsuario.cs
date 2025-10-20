@@ -18,6 +18,7 @@ namespace GerenciadorDeTarefasFinal
         public string[] nome;
         public string[] email;
         public string[] senha;
+        public int quantidadeUsuarios;
         public int i;
         public int contador;
         public string msq;//variavel acumuladora unir os dados da consulta
@@ -92,9 +93,20 @@ namespace GerenciadorDeTarefasFinal
                 i++;//ande o vetor
                 contador++;//Contar exatamente quantos dados foram inseridos
             }//fim do while
+            quantidadeUsuarios = contador;
              //Fechar a leitura dos dados com banco de dados
             leitura.Close();
         }//preencher
+            public int BuscarCodigoPorEmail(string emailBusca)
+        {
+            for (int i = 0; i < quantidadeUsuarios; i++)
+            {
+                if (email[i] == emailBusca)
+                    return codigo[i];
+            }
+            return -1; 
+        }
+
 
         public string ConsultarTudo()
         {
@@ -123,7 +135,20 @@ namespace GerenciadorDeTarefasFinal
             return "Nome não existe!";
         }//fim do metodo
 
-        
+        public int MostrarCodigo(string nome)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.nome[i] == nome)
+                {
+                    return codigo[i];
+                }//fim do if                
+            }//fim do metodo
+            return -1;
+        }//fim do metodo
+
+
 
         public string ConsultarSenha(string senha)
         {

@@ -98,6 +98,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AtualizarTarefa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AtualizarTarefa.Designer.cs">
+      <DependentUpon>AtualizarTarefa.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadastroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,12 @@
     </Compile>
     <Compile Include="DAOTarefa.cs" />
     <Compile Include="DAOUsuario.cs" />
+    <Compile Include="ExcluirTarefa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExcluirTarefa.Designer.cs">
+      <DependentUpon>ExcluirTarefa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,11 +138,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AtualizarTarefa.resx">
+      <DependentUpon>AtualizarTarefa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadastroUsuario.resx">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CriarTarefa.resx">
       <DependentUpon>CriarTarefa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExcluirTarefa.resx">
+      <DependentUpon>ExcluirTarefa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

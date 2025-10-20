@@ -25,7 +25,7 @@ namespace GerenciadorDeTarefasFinal
         public Form1()
         {
             InitializeComponent();
-            menuUsuariocs = new MenuUsuariocs();
+ 
             dadoNome = "";
             dadoEmail = "";
         }
@@ -37,16 +37,15 @@ namespace GerenciadorDeTarefasFinal
                 //Coletar os DADOS
                 string nome = textBox1.Text;
                 string senha = textBox4.Text;
-
+                int codigo = 0;
                 //Cadastrar no Banco
                 DAOUsuario dao = new DAOUsuario();
                 if (dao.ConsultarNome(nome) == "Correto" && dao.ConsultarSenha(senha) == "Correto")
                 {
                     MessageBox.Show("Dados Corretos");
-                    
-                    dadoNome = dao.MostrarNome(dao.InformarPosicao());
-                    dadoEmail = dao.MostrarEmail(dao.InformarPosicao());
-                    MessageBox.Show(dadoNome + "\n" + dadoEmail + "");
+                    codigo = dao.MostrarCodigo(nome);
+                    dadoEmail = dao.MostrarEmail(codigo);
+                    menuUsuariocs = new MenuUsuariocs(nome, dadoEmail, codigo);
 
                     menuUsuariocs.ShowDialog();
                 }

@@ -82,6 +82,7 @@ namespace GerenciadorDeTarefasFinal
                 textBox1.Text = "";
                 textBox4.Text = "";
                 textBox2.Text = "";
+                textBox3.Text = "";
 
             }
             catch (Exception ex)

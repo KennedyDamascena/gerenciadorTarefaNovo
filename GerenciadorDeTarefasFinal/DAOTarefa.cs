@@ -23,7 +23,7 @@ namespace GerenciadorDeTarefasFinal
         public int i;
         public int contador;
         public string msq;//variavel acumuladora unir os dados da consulta
-        public int posicao;
+        
         public DAOTarefa()
         {
             conexao = new MySqlConnection("server=localhost;DataBase=gerenciador;Uid=root;Password=;Convert Zero DateTime=True");
@@ -42,7 +42,7 @@ namespace GerenciadorDeTarefasFinal
         {
             try 
             {
-                dados = $"('','{titulo}','{descricao}','{dataCriacao}','{dataFinal}','{prioridade}','{situacao}','{codigoUsuario})";
+                dados = $"('','{titulo}','{descricao}','{dataCriacao}','{dataFinal}','{prioridade}','{situacao}','{codigoUsuario}')";
                 comando = $"Insert into tarefa (codigo, titulo, descricao, dataCriacao, dataFinal, prioridade, situacao, codigoUsuario) values{dados}";
                 //Lançar os dados no banco
                 MySqlCommand sql = new MySqlCommand(comando, conexao);
@@ -109,6 +109,11 @@ namespace GerenciadorDeTarefasFinal
             leitura.Close();
         }//preencher
 
+        public int QuantidadeDeDados()
+        {
+            return contador;
+        }//fim do método
+
         public string ConsultarTudo()
         {
             //Preecher Vetor
@@ -122,20 +127,116 @@ namespace GerenciadorDeTarefasFinal
             //Mostrar bd
         }//Fim
 
-        public string ConsultarPorCodigo(int codigo)
+        public string ConsultarPorCodigoUsuario(int codigoUsuario)
         {
             preencherVetor();
             msq = "";
             for (i = 0; i < contador; i++)
             {
-                if (this.codigo[i] == codigo)
+                if (this.codigoUsuario[i] == codigoUsuario)
                 {
-                    msq = $"\nCódigo:{this.codigo[i]} \ntitulo: {titulo[i]} \ndescricao: {descricao[i]} \ndataCriacao: {dataCriacao[i]} \ndataFinal {dataFinal[i]} \nprioridade {prioridade[i]} \nsituacao {situacao[i]} \ncodigoUsuario {codigoUsuario[i]}\n";
-                    return msq;
-                }//fim do if
+                    return codigo[i] 
+                        + titulo[i]
+                        + descricao[i]
+                        + dataCriacao[i]
+                        + dataFinal[i]
+                        + prioridade[i]
+                        + situacao[i]
+                        + codigoUsuario;
+                       }//fim do if
             }//fim do for
             return "\n\nCódigo informado não foi encontrado!";
         }//fim do metodo
 
+        public string ConsultarTitulo(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return titulo[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarDescricao(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return descricao[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarDataCriacao(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return dataCriacao[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarDataFinal(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return dataFinal[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarPrioridade(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return prioridade[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarSituacao(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return situacao[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarCodigoUsuario(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return codigoUsuario[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
     }
 }

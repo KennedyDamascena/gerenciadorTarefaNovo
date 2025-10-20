@@ -89,3 +89,4 @@ C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\Gerencia.997C294E.Up2Date
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.exe
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.pdb
+C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.CriarTarefa.resources

@@ -17,9 +17,21 @@ namespace GerenciadorDeTarefasFinal
         Form1 form1;
         DAOTarefa daoTarefa;
         DAOUsuario daoUsuario;
+        AtualizarUsuario atualizarUsuario;
 
         // Variável para guardar o código do usuário logado
         public int codigoUsuarioLogado;
+
+        public MenuUsuariocs()
+        {
+            InitializeComponent();
+            daoTarefa = new DAOTarefa();
+            //Chamar TODOS OS MÉTODOS NA ORDEM
+            ConfigurarGrid();//Estruturando o Grid
+            NomeDados();//Nomear as colunas
+            daoTarefa.preencherVetor();//Preencher os vetores e consultar o banco
+            AdicionarDados();//Inserir os dados na tela, linha por linha
+        }//fim do método
         public MenuUsuariocs(string nome, string email, int codigo)
         {
             InitializeComponent();
@@ -108,6 +120,8 @@ namespace GerenciadorDeTarefasFinal
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            ExcluirTarefa excluirTarefa = new ExcluirTarefa();
+            excluirTarefa.ShowDialog();
 
         }//Excluir Tarefa
 
@@ -133,7 +147,9 @@ namespace GerenciadorDeTarefasFinal
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            atualizarUsuario = new AtualizarUsuario(textBox1.Text, textBox2.Text, daoUsuario.ConsultarSenhaPorEmail(textBox2.Text));
+            atualizarUsuario.ShowDialog();
+            
         }//Atualizar Informação do Usuario
 
         private void button4_Click(object sender, EventArgs e)
@@ -148,6 +164,11 @@ namespace GerenciadorDeTarefasFinal
             daoUsuario = new DAOUsuario();
             daoTarefa= new DAOTarefa();
             
-        } 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }//Excluir usuario
     }
 }

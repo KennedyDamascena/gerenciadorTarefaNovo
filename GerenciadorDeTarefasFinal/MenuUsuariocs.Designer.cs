@@ -63,7 +63,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 137);
+            this.label1.Location = new System.Drawing.Point(29, 160);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 25);
             this.label1.TabIndex = 2;
@@ -87,7 +87,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.CadetBlue;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Pink;
+            this.button3.ForeColor = System.Drawing.Color.Crimson;
             this.button3.Location = new System.Drawing.Point(385, 345);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(99, 37);
@@ -99,9 +99,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(34, 171);
+            this.dataGridView1.Location = new System.Drawing.Point(34, 188);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(450, 156);
+            this.dataGridView1.Size = new System.Drawing.Size(450, 139);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -121,9 +121,9 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.CadetBlue;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(399, 44);
+            this.button5.Location = new System.Drawing.Point(385, 44);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(102, 74);
             this.button5.TabIndex = 5;

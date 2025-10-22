@@ -14,10 +14,13 @@ namespace GerenciadorDeTarefasFinal
     public partial class AtualizarTarefa : Form
     {
         DAOTarefa dao;
+        MenuUsuariocs menuUsuariocs;
+
         public AtualizarTarefa()
         {
             InitializeComponent();
             dao = new DAOTarefa();
+            menuUsuariocs = new MenuUsuariocs();
         }
 
         private void AtualizarTarefa_Load(object sender, EventArgs e)
@@ -30,11 +33,11 @@ namespace GerenciadorDeTarefasFinal
             int codigo = Convert.ToInt32(textBox1.Text);
             textBox7.Text = dao.ConsultarTitulo(codigo);
             textBox8.Text = dao.ConsultarDescricao(codigo);
-            textBox9.Text = dao.ConsultarDatacriacao(codigo);
+            textBox9.Text = dao.ConsultarDataCriacao(codigo);
             textBox5.Text = dao.ConsultarDataFinal(codigo);
             textBox4.Text = dao.ConsultarPrioridade(codigo);
             textBox2.Text = dao.ConsultarSituacao(codigo);
-            textBox3.Text = dao.consultarCodigousuario(codigo);
+            textBox3.Text = dao.ConsultarCodigoUsuario(codigo);
 
         }//Botão Buscar
 
@@ -80,6 +83,35 @@ namespace GerenciadorDeTarefasFinal
 
         private void button3_Click(object sender, EventArgs e)
         {
+            //Pegar os dados
+            string titulo = textBox7.Text;
+            string descricao = textBox8.Text;
+            DateTime dataCriacao = Convert.ToDateTime(textBox9.Text);
+            DateTime dataFinal = Convert.ToDateTime(textBox5.Text);
+            string prioridade = textBox4.Text;
+            string situacao = textBox2.Text;
+            int codigoUsuario = Convert.ToInt32(textBox3.Text);
+            //Atualizar
+            int codigo = Convert.ToInt32(textBox1.Text);
+            dao.Atualizar(codigo, "titulo", titulo);
+            dao.Atualizar(codigo, "descricao", descricao);
+            dao.Atualizar(codigo, "dataCriacao", dataCriacao);
+            dao.Atualizar(codigo, "dataFinal", dataFinal);
+            dao.Atualizar(codigo, "prioridade", prioridade);
+            dao.Atualizar(codigo, "situacao", situacao);
+            dao.Atualizar(codigo, "codigoUsuario", codigoUsuario);
+
+            //Mensagem:
+            MessageBox.Show("Atualizado com sucesso!");
+            textBox7.Text = "";
+            textBox8.Text = "";
+            textBox9.Text = "";
+            textBox5.Text = "";
+            textBox4.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+
+            menuUsuariocs.ShowDialog();
 
         }//Botao Salvar
 
@@ -87,5 +119,50 @@ namespace GerenciadorDeTarefasFinal
         {
             this.Close();
         }//Botao Voltar
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

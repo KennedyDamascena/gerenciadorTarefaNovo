@@ -107,6 +107,31 @@ namespace GerenciadorDeTarefasFinal
             return -1; 
         }
 
+        public string ConsultarEmail(int codigo)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.codigo[i] == codigo)
+                {
+                    return email[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Código não existe!";
+        }//fim do método
+
+        public string ConsultarSenhaPorEmail(string email)
+        {
+            preencherVetor();
+            for (i = 0; i < contador; i++)
+            {
+                if (this.email[i] == email)
+                {
+                    return senha[i] + "";
+                }//fim do if
+            }//fim do for
+            return "Email não existe!";
+        }//fim do método
 
         public string ConsultarTudo()
         {
@@ -247,6 +272,23 @@ namespace GerenciadorDeTarefasFinal
             try
             {
                 string query = $"update usuario set {campo} = '{novoDado}' where codigo = '{codigo}'";
+                //executar o comando
+                MySqlCommand sql = new MySqlCommand(query, conexao);
+                string resultado = "" + sql.ExecuteNonQuery();
+                return resultado + "dado altualizado com sucesso!";
+
+            }
+            catch (Exception erro)
+            {
+                return $"\nAlgo Deu errado!\n\n{erro}";
+            }
+        }//Fim do Metodo
+
+        public string Atualizar(string email, string campo, string novoDado)
+        {
+            try
+            {
+                string query = $"update usuario set {campo} = '{novoDado}' where email = '{email}'";
                 //executar o comando
                 MySqlCommand sql = new MySqlCommand(query, conexao);
                 string resultado = "" + sql.ExecuteNonQuery();

@@ -79,7 +79,6 @@ C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\bin
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.csproj.AssemblyReference.cache
-C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.exe.config
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.CadastroUsuario.resources
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.Form1.resources
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.MenuUsuariocs.resources
@@ -90,3 +89,7 @@ C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.exe
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.pdb
 C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.CriarTarefa.resources
+C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.AtualizarTarefa.resources
+C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.ExcluirTarefa.resources
+C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.AtualizarUsuario.resources
+C:\Users\kennedy.dmiranda\Source\Repos\gerenciador\GerenciadorDeTarefasFinal\obj\Debug\GerenciadorDeTarefasFinal.exe.config

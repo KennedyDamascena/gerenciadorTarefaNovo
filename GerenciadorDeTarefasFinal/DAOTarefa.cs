@@ -238,5 +238,71 @@ namespace GerenciadorDeTarefasFinal
             }//fim do for
             return "Código não existe!";
         }//fim do método
+
+        public string Atualizar(int codigo, string campo, int novoDado)
+        {
+            try
+            {
+                string query = $"update tarefa set {campo} = '{novoDado}' where codigo = '{codigo}'";
+                //executar o comando
+                MySqlCommand sql = new MySqlCommand(query, conexao);
+                string resultado = "" + sql.ExecuteNonQuery();
+                return resultado + "dado altualizado com sucesso!";
+
+            }
+            catch (Exception erro)
+            {
+                return $"\nAlgo Deu errado!\n\n{erro}";
+            }
+        }//Fim do Metodo
+
+        public string Atualizar(int codigo, string campo, DateTime novoDado)
+        {
+            try
+            {
+                string query = $"update tarefa set {campo} = '{novoDado}' where codigo = '{codigo}'";
+                //executar o comando
+                MySqlCommand sql = new MySqlCommand(query, conexao);
+                string resultado = "" + sql.ExecuteNonQuery();
+                return resultado + "dado altualizado com sucesso!";
+
+            }
+            catch (Exception erro)
+            {
+                return $"\nAlgo Deu errado!\n\n{erro}";
+            }
+        }//Fim do Metodo
+
+        public string Atualizar(int codigo, string campo, string novoDado)
+        {
+            try
+            {
+                string query = $"update tarefa set {campo} = '{novoDado}' where codigo = '{codigo}'";
+                //executar o comando
+                MySqlCommand sql = new MySqlCommand(query, conexao);
+                string resultado = "" + sql.ExecuteNonQuery();
+                return resultado + "dado altualizado com sucesso!";
+
+            }
+            catch (Exception erro)
+            {
+                return $"\nAlgo Deu errado!\n\n{erro}";
+            }
+        }//Fim do Metodo
+
+        public string Deletar(int codigo)
+        {
+            try
+            {
+                string query = $"delete from tarefa where codigo = '{codigo}'";
+                MySqlCommand sql = new MySqlCommand(query, conexao);
+                string resultado = "" + sql.ExecuteNonQuery();
+                return resultado + " dado excluído!";
+            }
+            catch (Exception erro)
+            {
+                return $"Algo deu errado\n\n {erro}";
+            }
+        }//fim do método
     }
 }

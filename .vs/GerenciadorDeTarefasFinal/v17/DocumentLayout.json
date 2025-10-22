@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\atualizartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\atualizartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\atualizartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,39 +19,47 @@
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\atualizartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\daotarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\daotarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\atualizarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\menuusuariocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\excluirtarefa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\excluirtarefa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\excluirtarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\excluirtarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\excluirtarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\excluirtarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\excluirtarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\criartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\daousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\daotarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\daotarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\criartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\criartarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|c:\\users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\gerenciadordetarefasfinal\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{8A5D36DA-22B4-45EF-B586-66086F73398D}|GerenciadorDeTarefasFinal\\GerenciadorDeTarefasFinal.csproj|solutionrelative:gerenciadordetarefasfinal\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
@@ -54,17 +70,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MenuUsuariocs.cs",
               "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\MenuUsuariocs.cs",
               "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\MenuUsuariocs.cs",
               "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\MenuUsuariocs.cs",
               "RelativeToolTip": "GerenciadorDeTarefasFinal\\MenuUsuariocs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T11:18:07.917Z",
               "IsPinned": true,
@@ -72,57 +88,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AtualizarTarefa.cs",
+              "DocumentIndex": 3,
+              "Title": "AtualizarTarefa.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
               "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
-              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
-              "RelativeToolTip": "GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwBsAAAA+AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarTarefa.cs [Design]",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\AtualizarTarefa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:51:54.017Z",
+              "WhenOpened": "2025-10-22T14:53:18.058Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExcluirTarefa.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.Designer.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\ExcluirTarefa.Designer.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.Designer.cs",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\ExcluirTarefa.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:46:30.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ExcluirTarefa.cs",
-              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
-              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
-              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
-              "RelativeToolTip": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCAAAAARAAAAAAAAAA==",
+              "Title": "AtualizarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarUsuario.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\AtualizarUsuario.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarUsuario.cs",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\AtualizarUsuario.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:50:08.833Z",
+              "WhenOpened": "2025-10-22T13:51:44.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExcluirTarefa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
-              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
-              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs [Design]",
-              "RelativeToolTip": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:46:40.44Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CriarTarefa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\CriarTarefa.cs",
-              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\CriarTarefa.cs",
-              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\CriarTarefa.cs [Design]",
-              "RelativeToolTip": "GerenciadorDeTarefasFinal\\CriarTarefa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:38:12.875Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MenuUsuariocs.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\MenuUsuariocs.cs",
               "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\MenuUsuariocs.cs",
@@ -134,44 +138,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "AtualizarUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarUsuario.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\AtualizarUsuario.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarUsuario.cs [Design]",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\AtualizarUsuario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:48:15.203Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AtualizarTarefa.cs",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:51:54.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DAOUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\DAOUsuario.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\DAOUsuario.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\DAOUsuario.cs",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\DAOUsuario.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAAAB4BAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T13:57:25.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExcluirTarefa.cs",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:46:46.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExcluirTarefa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\ExcluirTarefa.cs [Design]",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\ExcluirTarefa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:46:40.44Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "DAOTarefa.cs",
               "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\DAOTarefa.cs",
               "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\DAOTarefa.cs",
               "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\DAOTarefa.cs",
               "RelativeToolTip": "GerenciadorDeTarefasFinal\\DAOTarefa.cs",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAhwJYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAiwBMBAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T11:16:38.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
+              "Title": "CriarTarefa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\CriarTarefa.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\CriarTarefa.cs",
+              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\CriarTarefa.cs [Design]",
+              "RelativeToolTip": "GerenciadorDeTarefasFinal\\CriarTarefa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T14:38:12.875Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\Form1.cs",
               "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\Form1.cs",
               "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\Form1.cs [Design]",
               "RelativeToolTip": "GerenciadorDeTarefasFinal\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:17:07.643Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-20T11:17:07.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Form1.resx",
               "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\Form1.resx",
               "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\Form1.resx",
               "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\Form1.resx",
               "RelativeToolTip": "GerenciadorDeTarefasFinal\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-10-20T11:17:04.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:17:04.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\Form1.Designer.cs",
@@ -179,41 +256,7 @@
               "RelativeToolTip": "GerenciadorDeTarefasFinal\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:17:01.588Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "de9c0faa-e278-44b9-a24a-b31cb524fdb4",
-        "Display": 1,
-        "X": 936,
-        "Y": 177,
-        "Width": 1458,
-        "Height": 776,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AtualizarTarefa.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
-              "RelativeDocumentMoniker": "GerenciadorDeTarefasFinal\\AtualizarTarefa.cs",
-              "ToolTip": "C:\\Users\\kennedy.dmiranda\\source\\repos\\gerenciador\\GerenciadorDeTarefasFinal\\AtualizarTarefa.cs [Design]",
-              "RelativeToolTip": "GerenciadorDeTarefasFinal\\AtualizarTarefa.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T14:36:53.194Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-20T11:17:01.588Z"
             }
           ]
         }
